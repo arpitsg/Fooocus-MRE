@@ -8,20 +8,24 @@
             0.1
         ],
         [
-            "None",
-            1.0
+            "strapy_dress_victoria_secret.safetensors",
+            0
         ],
         [
-            "None",
-            1.0
+            "wet-clothes.safetensors",
+            0
         ],
         [
-            "None",
-            1.0
+            "hand_bra.safetensors",
+            0
         ],
         [
-            "None",
-            1.0
+            "HashimotoKanna_JP_Actress.safetensors",
+            0
+        ],
+        [
+            "Megan_Fox.safetensors",
+            0
         ]
     ],
     "default_cfg_scale": 4.0,
@@ -38,16 +42,17 @@
     ],
     "default_aspect_ratio": "1024*1024",
     "checkpoint_downloads": {
-        "juggernautXL_version6Rundiffusion.safetensors": "https://civitai.com/api/download/models/288982?type=Model&format=SafeTensor&size=full&fp=fp16"
+        "RealVisXL": "https://civitai.com/api/download/models/272378",
+        "juggernautXL_version8Rundiffusion.safetensors": "https://civitai.com/api/download/models/288982?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "Megan Fox": "https://civitai.com/models/18663/megan-fox-or-tribute-to-a-beautylora",
-        "HashimotoKanna_JP_Actress":"https://civitai.com/api/download/models/182390",
-        "wet-clothes": "https://civitai.com/api/download/models/142766?type=Model&format=SafeTensor",
-        "hand_bra":"https://civitai.com/api/download/models/181859?type=Model&format=SafeTensor",
-        "strapy_dress_victoria_secret": "https://civitai.com/api/download/models/295017?type=Model&format=SafeTensor",
-        "see-through": "https://civitai.com/api/download/models/296810?type=Model&format=SafeTensor",
+        "Megan_Fox.safetensors": "https://civitai.com/models/18663/megan-fox-or-tribute-to-a-beautylora",
+        "HashimotoKanna_JP_Actress.safetensors":"https://civitai.com/api/download/models/182390",
+        "wet-clothes.safetensors": "https://civitai.com/api/download/models/142766?type=Model&format=SafeTensor",
+        "hand_bra.safetensors":"https://civitai.com/api/download/models/181859?type=Model&format=SafeTensor",
+        "strapy_dress_victoria_secret.safetensors": "https://civitai.com/api/download/models/295017?type=Model&format=SafeTensor",
+        "see-through.safetensors": "https://civitai.com/api/download/models/296810?type=Model&format=SafeTensor",
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
     }
 }

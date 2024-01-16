@@ -175,23 +175,23 @@ default_loras = get_config_item_or_set_default(
         ],
         [
             "strapy_dress_victoria_secret.safetensors",
-            0
+            0.1
         ],
         [
             "wet-clothes.safetensors",
-            0
+            0.1
         ],
         [
             "hand_bra.safetensors",
-            0
+            0.1
         ],
         [
             "HashimotoKanna_JP_Actress.safetensors",
-            0
+            0.1
         ],
         [
             "Megan_Fox.safetensors",
-            0
+            0.1
         ]
     ],
     validator=lambda x: isinstance(x, list) and all(len(y) == 2 and isinstance(y[0], str) and isinstance(y[1], numbers.Number) for y in x)
