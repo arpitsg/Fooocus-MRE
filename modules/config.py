@@ -174,20 +174,24 @@ default_loras = get_config_item_or_set_default(
             0.1
         ],
         [
-            "None",
-            1.0
+            "see-through",
+            0
         ],
         [
-            "None",
-            1.0
+            "strapy_dress_victoria_secret",
+            0
         ],
         [
-            "None",
-            1.0
+            "hand_bra",
+            0
         ],
         [
-            "None",
-            1.0
+            "HashimotoKanna_JP_Actress",
+            0
+        ],
+        [
+            "Megan Fox",
+            0
         ]
     ],
     validator=lambda x: isinstance(x, list) and all(len(y) == 2 and isinstance(y[0], str) and isinstance(y[1], numbers.Number) for y in x)

@@ -8,20 +8,24 @@
             0.1
         ],
         [
-            "None",
-            1.0
+            "see-through",
+            0
         ],
         [
-            "None",
-            1.0
+            "strapy_dress_victoria_secret",
+            0
         ],
         [
-            "None",
-            1.0
+            "hand_bra",
+            0
         ],
         [
-            "None",
-            1.0
+            "HashimotoKanna_JP_Actress",
+            0
+        ],
+        [
+            "Megan Fox",
+            0
         ]
     ],
     "default_cfg_scale": 4.0,
