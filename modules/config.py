@@ -174,10 +174,6 @@ default_loras = get_config_item_or_set_default(
             0.1
         ],
         [
-            "see-through",
-            0
-        ],
-        [
             "strapy_dress_victoria_secret",
             0
         ],
