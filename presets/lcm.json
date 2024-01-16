@@ -1,11 +1,11 @@
 {
-    "default_model": "juggernautXL_version6Rundiffusion.safetensors",
+    "default_model": "juggernautXL_version8Rundiffusion.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            "None",
-            1.0
+            "sd_xl_offset_example-lora_1.0.safetensors",
+            0.1
         ],
         [
             "None",
@@ -28,7 +28,7 @@
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
-    "default_performance": "Extreme Speed",
+    "default_performance": "Speed",
     "default_prompt": "",
     "default_prompt_negative": "",
     "default_styles": [
@@ -36,10 +36,18 @@
         "Fooocus Enhance",
         "Fooocus Sharp"
     ],
-    "default_aspect_ratio": "1152*896",
+    "default_aspect_ratio": "1024*1024",
     "checkpoint_downloads": {
-        "juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors"
+        "juggernautXL_version6Rundiffusion.safetensors": "https://civitai.com/api/download/models/288982?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     "embeddings_downloads": {},
-    "lora_downloads": {}
+    "lora_downloads": {
+        "Megan Fox": "https://civitai.com/models/18663/megan-fox-or-tribute-to-a-beautylora",
+        "HashimotoKanna_JP_Actress":"https://civitai.com/api/download/models/182390",
+        "wet-clothes": "https://civitai.com/api/download/models/142766?type=Model&format=SafeTensor",
+        "hand_bra":"https://civitai.com/api/download/models/181859?type=Model&format=SafeTensor",
+        "strapy_dress_victoria_secret": "https://civitai.com/api/download/models/295017?type=Model&format=SafeTensor",
+        "see-through": "https://civitai.com/api/download/models/296810?type=Model&format=SafeTensor",
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+    }
 }
