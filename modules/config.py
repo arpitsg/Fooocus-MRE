@@ -173,7 +173,7 @@ default_loras = get_config_item_or_set_default(
             "sd_xl_offset_example-lora_1.0.safetensors",
             0.1
         ],
-            [
+        [
             "strapy_dress_victoria_secret.safetensors",
             0.1
         ],
@@ -181,9 +181,18 @@ default_loras = get_config_item_or_set_default(
             "Garterbelt.safetensors",
             0.1
         ], 
-        ["covered_nipples.safetensors",0.1],     
-        ["Disposable_mask_swimsuit.safetensors","0.1"],
-        ["SDXL_Sexy_bikini.safetensors","0.1"],  
+        [
+            "covered_nipples.safetensors",
+            0.1
+        ],   
+        [
+            "Disposable_mask_swimsuit.safetensors",
+            0.1
+        ],   
+        [
+            "SDXL_Sexy_bikini.safetensors",
+             0.1
+        ],  
         [
             "wet-clothes.safetensors",
             0.1
