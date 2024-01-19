@@ -279,7 +279,7 @@ lora_downloads = get_config_item_or_set_default(
         "covered_nipples.safetensors": "https://civitai.com/api/download/models/151506?type=Model&format=SafeTensor",
         # see-through,white lace swimsuit,outdoors,
         "Disposable_mask_swimsuit.safetensors":"https://civitai.com/api/download/models/244517",
-                "Underboob.safetensors": "https://civitai.com/api/download/models/136168?type=Model&format=SafeTensor",
+        "Underboob.safetensors": "https://civitai.com/api/download/models/136168?type=Model&format=SafeTensor",
         # edgleotard
         "SDXL_Sexy_bikini.safetensors": "https://civitai.com/api/download/models/136277",
     #    Garterbelt, floral embroidery, iron chains
